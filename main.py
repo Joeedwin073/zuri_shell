@@ -16,6 +16,7 @@ print("""
 
 for i in range(0,5):
     resp = input("What is your choice? ")
+    resp = resp.upper()
     comp = random.choice(list)
     if resp == comp:
         print("Oh you guessed the same as the other player... Try again.")
@@ -60,7 +61,7 @@ for i in range(0,5):
         pass
     i = i + 1
 
-Print("Thank you for playing... ")
+print("Thank you for playing... ")
 
 
 
